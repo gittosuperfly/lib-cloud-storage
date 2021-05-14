@@ -1,0 +1,3 @@
+include ':cloudstorage'
+include ':app'
+rootProject.name = "lib-cloud-storage"
