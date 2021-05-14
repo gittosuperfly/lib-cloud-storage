@@ -26,8 +26,8 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.test_up).setOnClickListener {
             CloudStorage.upload(
-                "test/test.txt",
-                "111111123222".toByteArray(),
+                "test/test.gif",
+                ImageFileUtils.gitTestGifFile(),
                 false,
                 object : UpCallback {
                     override fun onCompleted(url: String) {
